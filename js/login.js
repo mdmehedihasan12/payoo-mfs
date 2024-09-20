@@ -27,7 +27,7 @@ document
 
     if (phoneNumber === "5" && pinNumber === "1234") {
       console.log("you are logged in");
-      window.location.href = '/home.html';
+      window.location.src = '/home.html';
     } else {
       alert("Wrong phone number or pin");
     }
